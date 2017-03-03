@@ -11,21 +11,31 @@ package juego.de.dados;
  */
 public class Mensaje {
 
-int menuPrincipal(){
-        
-        if (Lanzar() == )
-    
-        System.out.println("Seleccione una opción:" );
-        System.out.println("1. Sumar");
-        System.out.println("2. Restar");
-        System.out.println("3. Multiplicar");
-        System.out.println("4. Dividir");
-        int opcion;
-        
-        
-        return opcion;
+    public Mensaje() {
     }
 
+int menuPrincipal(){
+            
+    Dado1 midado1 = new Dado1();
+    Dado2 midado2 = new Dado2();
 
+    Public int opcion = new Mensaje();
     
+    opcion = midado1 + midado2;
+    
+        switch (opcion){
+            
+            case 2:
+                System.out.println("Pierde la apuesta" );
+            case 3:
+                System.out.println("Pierde el doble" );
+            case 7:
+                System.out.println("gana el  doble" );
+            case 11:
+                System.out.println("No pierde nada" );
+            case 12:
+                System.out.println("Gana la Apuesta" );
+            break;
+                System.out.println("Pierde el 1.5 de la apuesta" );
+    }
 }

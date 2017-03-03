@@ -10,9 +10,4 @@ package juego.de.dados;
  * @author labing506
  */
 public class Dado1 {
-    
-    public int Valordado1;
-    Dado1 Valordado1 = new dado();
-    
-    
 }

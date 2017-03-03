@@ -15,8 +15,7 @@ public class JuegoDeDados {
     Dado2 midado2 = new Dado2();
     
     int Lanzar (){
-        
-    
+        return 0;
     }
             
    
